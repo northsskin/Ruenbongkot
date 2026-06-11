@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ruen Bongkot — Royal Thai Kitchen | Scarsdale, NY</title>
+  <meta name="description" content="Ruen Bongkot brings authentic royal Thai flavors to Scarsdale, NY — from classic Pad Thai to deep-cut regional specialties. Dine in or order on Uber Eats, DoorDash & Seamless." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;🪷&lt;/text&gt;&lt;/svg&gt;" />
+</head>
+<body>
+
+  <!-- ───────── Navigation ───────── -->
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#top">
+      <span class="nav__lotus" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none"><path d="M24 6c3 6 4 11 4 15 0 5-2 8-4 8s-4-3-4-8c0-4 1-9 4-15Z" fill="currentColor" opacity=".9"/><path d="M11 14c5 3 8 7 10 11 2 4 2 8 0 9-2 1-5-1-7-5-2-3.5-3.5-9-3-15Z" fill="currentColor" opacity=".65"/><path d="M37 14c-5 3-8 7-10 11-2 4-2 8 0 9 2 1 5-1 7-5 2-3.5 3.5-9 3-15Z" fill="currentColor" opacity=".65"/><path d="M4 26c5 0 9.5 1.5 12.5 4 3 2.5 4.5 5.5 3.5 7-1 1.5-4.5 1-8-1.5-3-2-6-5.5-8-9.5Z" fill="currentColor" opacity=".4"/><path d="M44 26c-5 0-9.5 1.5-12.5 4-3 2.5-4.5 5.5-3.5 7 1 1.5 4.5 1 8-1.5 3-2 6-5.5 8-9.5Z" fill="currentColor" opacity=".4"/></svg>
+      </span>
+      <span class="nav__name">Ruen <em>Bongkot</em></span>
+    </a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#story">Our Story</a>
+      <a href="#menu">Menu</a>
+      <a href="#lunch">Lunch Special</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a href="#order" class="btn btn--gold nav__cta">Order Now</a>
+    <button class="nav__burger" id="burger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </header>
+
+  <!-- ───────── Hero ───────── -->
+  <section class="hero" id="top">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="hero__pattern" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <p class="hero__eyebrow reveal">เรือนบงกช &nbsp;·&nbsp; Scarsdale, New York</p>
+      <h1 class="hero__title reveal">Royal Thai Flavors,<br /><span>Made With Heart.</span></h1>
+      <p class="hero__sub reveal">From street-style Moo Ping skewers to deep-cut regional curries, we bring the
+        true taste of Thailand to Central Park Avenue — fresh, fiery, and unforgettable.</p>
+      <div class="hero__actions reveal">
+        <a href="#menu" class="btn btn--gold">Explore the Menu</a>
+        <a href="#visit" class="btn btn--ghost">Find Us</a>
+      </div>
+      <div class="hero__badges reveal">
+        <div class="badge"><strong>4.7★</strong><span>Local Rating</span></div>
+        <div class="badge"><strong>11–3</strong><span>Lunch Special</span></div>
+        <div class="badge"><strong>3+</strong><span>Delivery Apps</span></div>
+      </div>
+    </div>
+    <div class="hero__scroll" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- ───────── Story ───────── -->
+  <section class="story section" id="story">
+    <div class="section__head reveal">
+      <p class="kicker">Our Story</p>
+      <h2>A Royal House of Thai Cooking</h2>
+    </div>
+    <div class="story__grid">
+      <div class="story__card reveal">
+        <div class="story__icon">🪷</div>
+        <h3>Authentic &amp; Traditional</h3>
+        <p>“Ruen Bongkot” means <em>House of the Lotus</em>. We lean into authentic, traditional royal
+          flavors — classic Thai comfort food alongside regional specialties you won't find at a standard
+          takeout joint.</p>
+      </div>
+      <div class="story__card reveal">
+        <div class="story__icon">🌶️</div>
+        <h3>Fresh, With Real Heat</h3>
+        <p>Our kitchen is praised for fresh ingredients and great heat control — every dish made to order,
+          from mild and fragrant to Thai-hot for the brave.</p>
+      </div>
+      <div class="story__card reveal">
+        <div class="story__icon">🏡</div>
+        <h3>A Westchester Favorite</h3>
+        <p>On the bustling Central Park Avenue strip between Scarsdale and Edgemont, we're an easy stop for
+          neighbors from Hartsdale, Yonkers, Eastchester and beyond — with a stellar 4.7-star local rating.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── Menu ───────── -->
+  <section class="menu section" id="menu">
+    <div class="section__head reveal">
+      <p class="kicker">The Menu</p>
+      <h2>From Street Noodles to Royal Curries</h2>
+    </div>
+
+    <div class="menu__tabs reveal" role="tablist">
+      <button class="tab is-active" data-tab="starters" role="tab">Royal Starters</button>
+      <button class="tab" data-tab="noodles" role="tab">Fan-Favorite Noodles</button>
+      <button class="tab" data-tab="regional" role="tab">Regional Specialties</button>
+    </div>
+
+    <div class="menu__panels">
+      <!-- Starters -->
+      <div class="panel is-active" id="panel-starters">
+        <article class="dish reveal">
+          <div class="dish__art art-sampler" aria-hidden="true"><span>🥟</span></div>
+          <div class="dish__body">
+            <header><h3>App Sampler</h3><span class="dish__tag">Most Popular</span></header>
+            <p>The perfect kickoff — crispy shrimp rolls, dumplings, crab rangoons, and golden curry puffs on one plate.</p>
+          </div>
+        </article>
+        <article class="dish reveal">
+          <div class="dish__art art-mooping" aria-hidden="true"><span>🍢</span></div>
+          <div class="dish__body">
+            <header><h3>Moo Ping</h3><span class="dish__tag">Street Style</span></header>
+            <p>Traditional Thai street skewers — marinated grilled pork served with smoky <em>jaew</em> dipping sauce.</p>
+          </div>
+        </article>
+        <article class="dish reveal">
+          <div class="dish__art art-sausage" aria-hidden="true"><span>🌿</span></div>
+          <div class="dish__body">
+            <header><h3>Northern Thai Herb Sausages</h3><span class="dish__tag">Regional</span></header>
+            <p>Fragrant Chiang Mai–style sausages packed with lemongrass, kaffir lime, and Northern Thai herbs.</p>
+          </div>
+        </article>
+      </div>
+
+      <!-- Noodles -->
+      <div class="panel" id="panel-noodles">
+        <article class="dish reveal">
+          <div class="dish__art art-padthai" aria-hidden="true"><span>🍜</span></div>
+          <div class="dish__body">
+            <header><h3>Pad Thai</h3><span class="dish__tag">Classic</span></header>
+            <p>The icon — rice noodles wok-tossed in tamarind sauce with egg, bean sprouts, crushed peanuts and lime.</p>
+          </div>
+        </article>
+        <article class="dish reveal">
+          <div class="dish__art art-padseeew" aria-hidden="true"><span>🥢</span></div>
+          <div class="dish__body">
+            <header><h3>Pad See-Ew</h3><span class="dish__tag">Comfort</span></header>
+            <p>Wide rice noodles charred in sweet soy with Chinese broccoli and egg — smoky, savory comfort in a bowl.</p>
+          </div>
+        </article>
+        <article class="dish reveal">
+          <div class="dish__art art-keemao" aria-hidden="true"><span>🔥</span></div>
+          <div class="dish__body">
+            <header><h3>Pad Kee Mao</h3><span class="dish__tag">Spicy · Drunken Noodles</span></header>
+            <p>Fiery drunken noodles with fresh chili, garlic, and Thai basil. Praised for serious, well-balanced heat.</p>
+          </div>
+        </article>
+      </div>
+
+      <!-- Regional -->
+      <div class="panel" id="panel-regional">
+        <article class="dish reveal">
+          <div class="dish__art art-isaan" aria-hidden="true"><span>🍗</span></div>
+          <div class="dish__body">
+            <header><h3>Isaan Classic</h3><span class="dish__tag">Northeastern</span></header>
+            <p>A trio from Northeastern Thailand — crispy chicken wings, green papaya salad, and sticky rice.</p>
+          </div>
+        </article>
+        <article class="dish reveal">
+          <div class="dish__art art-duck" aria-hidden="true"><span>🦆</span></div>
+          <div class="dish__body">
+            <header><h3>Fruity Duck</h3><span class="dish__tag">Chef's Specialty</span></header>
+            <p>Crispy half duck with pineapple, mango, lychee, and cashews, glazed in a sweet-savory chili jam sauce.</p>
+          </div>
+        </article>
+        <article class="dish reveal">
+          <div class="dish__art art-curry" aria-hidden="true"><span>🍛</span></div>
+          <div class="dish__body">
+            <header><h3>Southern Black Pepper Curry</h3><span class="dish__tag">Southern</span></header>
+            <p>A bold, deep-cut Southern Thai curry — black pepper forward, rich and intensely aromatic.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── Lunch Special ───────── -->
+  <section class="lunch section" id="lunch">
+    <div class="lunch__card reveal">
+      <div class="lunch__pattern" aria-hidden="true"></div>
+      <p class="kicker kicker--dark">Midday Bite</p>
+      <h2>The Famous Lunch Special</h2>
+      <p>Every day from <strong>11:00 AM – 3:00 PM</strong>, enjoy your Thai favorites at a neighborhood-friendly
+        price. The best lunch deal on Central Park Avenue.</p>
+      <div class="lunch__time"><span>11:00 AM</span><span class="lunch__dash"></span><span>3:00 PM</span></div>
+    </div>
+  </section>
+
+  <!-- ───────── Reviews ───────── -->
+  <section class="reviews section" id="reviews">
+    <div class="section__head reveal">
+      <p class="kicker">What Neighbors Say</p>
+      <h2>4.7 Stars &amp; Counting</h2>
+    </div>
+    <div class="reviews__grid">
+      <blockquote class="review reveal">
+        <div class="review__stars">★★★★★</div>
+        <p>“The Pad Kee Mao has real heat and incredibly fresh basil. This is the best Thai on the Central
+          Ave strip, hands down.”</p>
+        <footer>— Hartsdale regular</footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <div class="review__stars">★★★★★</div>
+        <p>“Finally a place with deep-cut regional dishes. The Isaan Classic with sticky rice tastes like
+          Bangkok street food.”</p>
+        <footer>— Edgemont local</footer>
+      </blockquote>
+      <blockquote class="review reveal">
+        <div class="review__stars">★★★★★</div>
+        <p>“The Fruity Duck is a showstopper — crispy, sweet, spicy, perfect. And delivery always arrives
+          hot and fast.”</p>
+        <footer>— Yonkers foodie</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ───────── Order / Visit ───────── -->
+  <section class="visit section" id="visit">
+    <div class="visit__grid">
+      <div class="visit__info reveal">
+        <p class="kicker">Visit Us</p>
+        <h2>On the Central Ave Strip</h2>
+        <ul class="visit__list">
+          <li>
+            <span class="visit__icon">📍</span>
+            <div><strong>Address</strong><br />750 Central Park Avenue<br />Scarsdale, NY 10583</div>
+          </li>
+          <li>
+            <span class="visit__icon">🕐</span>
+            <div><strong>Lunch Special</strong><br />Daily, 11:00 AM – 3:00 PM</div>
+          </li>
+          <li>
+            <span class="visit__icon">🚗</span>
+            <div><strong>Easy to Reach</strong><br />Minutes from Hartsdale, Yonkers &amp; Eastchester</div>
+          </li>
+        </ul>
+        <a class="btn btn--gold" href="https://maps.google.com/?q=750+Central+Park+Avenue,+Scarsdale,+NY+10583" target="_blank" rel="noopener">Get Directions</a>
+      </div>
+      <div class="visit__order reveal" id="order">
+        <h3>Craving It Now?</h3>
+        <p>Dine in with us, or order from your couch — we're on all your favorite apps.</p>
+        <div class="visit__apps">
+          <a class="app-btn" href="https://www.ubereats.com" target="_blank" rel="noopener"><span class="app-dot app-dot--green"></span>Uber Eats</a>
+          <a class="app-btn" href="https://www.doordash.com" target="_blank" rel="noopener"><span class="app-dot app-dot--red"></span>DoorDash</a>
+          <a class="app-btn" href="https://www.seamless.com" target="_blank" rel="noopener"><span class="app-dot app-dot--blue"></span>Seamless</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── Footer ───────── -->
+  <footer class="footer">
+    <div class="footer__lotus" aria-hidden="true">🪷</div>
+    <p class="footer__name">Ruen <em>Bongkot</em></p>
+    <p class="footer__tag">Royal Thai Kitchen · Scarsdale, NY</p>
+    <p class="footer__copy">© <span id="year"></span> Ruen Bongkot. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
