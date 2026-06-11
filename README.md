@@ -20,5 +20,6 @@ It's a static site — no build step needed. Just run:
 python3 run.py
 ```
 
-This serves the site at http://localhost:8000 and opens it in your
-browser automatically. You can also open `index.html` directly.
+This serves the site at http://localhost:3000 and opens it in your
+browser automatically (pass another port as an argument to change it,
+e.g. `python3 run.py 8080`). You can also open `index.html` directly.

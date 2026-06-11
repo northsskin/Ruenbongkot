@@ -2,15 +2,17 @@
 """Launch the Ruen Bongkot website locally.
 
 Run with:  python3 run.py   (or double-click on most systems)
-Serves the site at http://localhost:8000 and opens it in your browser.
+Serves the site at http://localhost:3000 and opens it in your browser.
+Pass a different port as an argument if needed:  python3 run.py 8080
 """
 import http.server
 import os
 import socketserver
+import sys
 import threading
 import webbrowser
 
-PORT = 8000
+PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 3000
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
