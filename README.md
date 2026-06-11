@@ -14,10 +14,11 @@ A website for **Ruen Bongkot**, an authentic royal Thai restaurant at
 
 ## Running locally
 
-It's a static site — no build step needed. Open `index.html` directly,
-or serve it:
+It's a static site — no build step needed. Just run:
 
 ```bash
-python3 -m http.server 8000
-# → http://localhost:8000
+python3 run.py
 ```
+
+This serves the site at http://localhost:8000 and opens it in your
+browser automatically. You can also open `index.html` directly.
